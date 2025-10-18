@@ -1,51 +1,54 @@
-# 💳 Bank 1 – C++ Console Banking System
+# 💳 Bank 1 – C++ Console Application
 
-This repository contains **three progressive versions** of a C++ console-based banking client management system, developed as part of the  [AbouHadhood Platform](https://programmingadvices.com/) training track.
-
-Each version introduces new features, enhancements, and optimisations, showcasing the evolution of the project from a simple client manager to a fully featured banking system.
-
----
-
-## 📂 Project Versions
-
-### 1️⃣ Bank 1 (Original)
-The base version of the banking system with essential client management features:
-- Add, delete, update, and search clients
-- Basic deposit and withdrawal
-- Display client list in a table format
-- Data stored in plain text files
+**Project 3 & 3.2 (2nd Extension)**  
+A C++ console-based banking client management system (from  [AbouHadhood Platform](https://programmingadvices.com/)) — designed for simplicity, efficiency, and learning best programming practices.
 
 ---
 
-### 2️⃣ Bank 1 – 1st Extension
-Enhanced with more real-world banking operations:
-- Transfer money between accounts
-- Transaction history logging
-- Additional input validation
-- Improved UI navigation
+## 🏦 **About the Project**
+This project simulates a basic banking system, allowing the management of client accounts through a simple console interface.  
+It’s built step-by-step, starting with a functional **core version** (*Bank 1*), then expanding with new features in the **2nd Extension**.
 
 ---
 
-### 3️⃣ Bank 1 – 2nd Extension *(Version 2.0)*
-🚀 **Smart Banking Suite – Advanced Features**
-- **User Management System**
-  - Role-based permissions (Admin / Normal User)
-  - Add, delete, update, and search users
-- **Improved Transactions**
-  - Safe deposits and withdrawals with overdraft prevention
-- **Persistent Data**
-  - User and client info saved across sessions
-- **Refactored Codebase**
-  - Better modularity, cleaner structure, enums & structs
-- **Upgraded Console UI**
-  - Smoother navigation and professional design
+## 📌 **Core Features (Bank 1)**
+
+- **Client List Management** – View all bank clients in a neat, tabular format.
+- **Add New Client** – Add customer details including account number, name, and balance.
+- **Delete Client** – Remove a client’s record by account number.
+- **Update Client Info** – Edit customer details directly from the menu.
+- **Find Client** – Search for a client by account number.
+- **File Storage** – Save and load client data from a text file.
+- **Clean Menu Navigation** – Easy-to-use console menu system.
 
 ---
 
-## 🛠 Tech Stack
-- **Language:** C++
-- **Paradigm:** Procedural with structured programming concepts
-- **Data Storage:** Text files for persistent data
-- **Platform:** Console application (Windows / Linux)
+## 🚀 **What’s New in the 2nd Extension?**
+
+✅ **Deposit & Withdraw Operations** – Added transactions for managing client balances.  
+✅ **Balance Check** – View client balance instantly.  
+✅ **Transaction Validations** – Ensures withdrawal amounts don’t exceed available balance.  
+✅ **Code Improvements** – More organized structure with clearer logic flow.
 
 ---
+
+
+---
+
+## 🛠 **Tech Stack**
+- **Language:** C++  
+- **Paradigm:** Structured Programming  
+- **Data Storage:** Text files  
+- **Platform:** Console (Terminal)  
+
+---
+
+## 🎯 **Learning Outcomes**
+- File handling in C++
+- Menu-driven console applications
+- Data validation techniques
+- Step-by-step project scalability
+
+---
+
+📌 *Next Step:* Check out the **3rd Extension** for user management and role-based access control!
